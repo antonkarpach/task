@@ -6,7 +6,7 @@ let canvas = document.getElementById("canvas"),
     defaultColor = "white",
     isDown = false,
     list = {
-        polygon1: new Polygon([[0, 0], [0, 90], [90, 90], [90, 0]], 65, 50),
+        polygon1: new Polygon([[0, 0], [0, 90], [90, 90], [90, 0]], 66, 50),
         polygon2: new Polygon([[110, 0], [0, 70], [0, 140], [100, 130]], 60, 160),
         polygon3: new Polygon([[10, 90], [50, 10], [100, 90]], 60, 310),
         polygon4: new Polygon([[0,90], [60, 0], [120, 0], [180, 90]], 30, 420),
