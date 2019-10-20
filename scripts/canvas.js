@@ -6,10 +6,10 @@ let canvas = document.getElementById("canvas"),
     defaultColor = "white",
     isDown = false,
     list = {
-        polygon1: new Polygon([[30, 0], [60, 60], [0, 60]], 50, 50),
-        polygon2: new Polygon([[50, 0], [100, 50], [50, 100], [0, 50]], 200, 50),
-        polygon3: new Polygon([[50, 0], [100, 50], [50, 100], [0, 50], [0, 40]], 100, 100),
-        polygon4: new Polygon([[50, 0], [100, 50], [50, 100], [0, 50]], 200, 200),
+        polygon1: new Polygon([[0, 0], [0, 90], [90, 90], [90, 0]], 65, 50),
+        polygon2: new Polygon([[110, 0], [0, 70], [0, 140], [100, 130]], 60, 160),
+        polygon3: new Polygon([[10, 90], [50, 10], [100, 90]], 60, 310),
+        polygon4: new Polygon([[0,90], [60, 0], [120, 0], [180, 90]], 30, 420),
     },
     render = function () {
         cnv.fillStyle = defaultColor;
